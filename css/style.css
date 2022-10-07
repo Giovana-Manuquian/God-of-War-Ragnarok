@@ -87,9 +87,18 @@ footer p {
         background-position: center;
         background-size: cover;
     }
+    
+    .conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 72%;
+}
 
     .conteudo-principal p {
-        padding: 155px 70px 20px 70px;
+        padding: 70px 70px 20px 70px;
         margin-top: 20%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 15px;
